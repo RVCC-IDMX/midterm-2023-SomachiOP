@@ -1,0 +1,49 @@
+/*Resizes the moyai img*/
+body {
+    font-family: 'Vast Shadow', serif;
+    background-color: red;
+   
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Arbutus', serif;
+
+}
+
+/*Header*/
+
+/*Width will be 100% of viewport when 500px or less*/
+
+header > img {
+
+ border: blue 14px solid;
+ width: 100%;
+ max-width: 400px;
+}
+
+@media(max-width: 800px) {
+
+    body {
+        background-color: orangered;
+        font-size: smaller;
+    }
+
+    header > img {
+
+       width: 200px;  
+    }
+}
+
+
+@media(max-width: 500px) {
+
+    body {
+        background-color: green;
+        font-size: smaller;
+    }
+
+    header > img {
+
+       width: 200px;  
+    }
+}
