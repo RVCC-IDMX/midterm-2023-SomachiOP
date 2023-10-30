@@ -1,7 +1,8 @@
 /*Resizes the moyai img*/
 body {
     font-family: 'Vast Shadow', serif;
-    background-color: red;
+    background-color:#6B615F;
+    color:#CCEB5B;
    
 }
 
@@ -16,7 +17,7 @@ h1, h2, h3, h4, h5, h6 {
 
 header > img {
 
- border: blue 14px solid;
+ border:  #8d966c 14px solid;
  height: 150x;
  width: 200px;
  max-width: 400px;
@@ -27,6 +28,11 @@ header {
     text-align: center;
     font-size: 19px;
     
+}
+h1 {
+
+    text-decoration: underline;
+
 }
  
 /*Websites*/
@@ -42,8 +48,8 @@ header {
 @media(max-width: 800px) {
 
     body {
-        background-color: orangered;
-        font-size: smaller;
+        background-color:maroon;
+        font-size:large;
     }
 
     header > img {
@@ -56,13 +62,21 @@ header {
 @media(max-width: 500px) {
 
     body {
-        background-color: green;
-        font-size: smaller;
+        background-color: #CCEB5B;
+        
+        color: #EB6B5B;
     }
-
+    body > p {
+        font-size: 20px;
+    }
     header > img {
 
        width: 200px;  
     }
 }
 
+#end  {
+
+
+    
+}
