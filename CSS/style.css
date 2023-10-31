@@ -59,14 +59,27 @@ h1 {
 }
 
 
+/*End*/
+
+#end, footer {
+    text-align: center;
+}   
+#end > img{
+width: 400px;
+height: 600px;
+    
+}
+
+/*Media Rules*/
+
 @media(max-width: 500px) {
 
     body {
         background-color: #CCEB5B;
         
-        color: #EB6B5B;
+        color: #536735;
     }
-    body > p {
+    body ul {
         font-size: 20px;
     }
     header > img {
@@ -75,8 +88,3 @@ h1 {
     }
 }
 
-#end  {
-
-
-    
-}
