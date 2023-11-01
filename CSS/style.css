@@ -44,6 +44,18 @@ h1 {
 
 
 
+/*End*/
+
+#end, footer {
+    text-align: center;
+}   
+#end > img{
+width: 400px;
+height: 600px;
+    
+}
+
+/*Tablet Media Rules*/
 
 @media(max-width: 800px) {
 
@@ -59,32 +71,32 @@ h1 {
 }
 
 
-/*End*/
-
-#end, footer {
-    text-align: center;
-}   
-#end > img{
-width: 400px;
-height: 600px;
-    
-}
-
-/*Media Rules*/
+/*Mobile Media Rules*/
 
 @media(max-width: 500px) {
+    header > img {
 
+       width: 120px;
+       height: 160px;  
+    }
+    header  {
+        font-size: 12px
+    }
     body {
         background-color: #CCEB5B;
         
         color: #536735;
+        font-size: 12px
     }
-    body ul {
-        font-size: 20px;
-    }
-    header > img {
+    
 
-       width: 200px;  
+    #end > img {
+
+        width: 200px;
+        height: 300px;
+    }
+    footer {
+
     }
 }
 
